@@ -49,6 +49,18 @@ git clone https://github.com/Monika-prog45/STUDY_BUDDY
 *(or `python app.py` for Python)*
 
 ---
+## 📸 Screenshots
+
+### Home Screen
+![Home](assets/screenshots/home.png)
+
+### Quiz Interface
+![Quiz](assets/screenshots/quiz.png)
+
+### Result Screen
+![Result](assets/screenshots/result.png)
+
+---
 
 ## 📊 Results & Impact
 - Improved learner engagement
