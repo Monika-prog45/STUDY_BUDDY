@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Learning Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <div id="loginDiv" class="card">
+    <h2>Login</h2>
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <input type="number" id="age" placeholder="Age"><br>
+    <button onclick="login()">Start</button>
+  </div>
+
+  <!-- SUBJECT SELECTION -->
+  <div id="subjectDiv" class="card" style="display:none;">
+    <h2>Select Subject</h2>
+    <button onclick="selectSubject('Maths')">Maths</button>
+    <button onclick="selectSubject('English')">English</button>
+    <button onclick="selectSubject('GK')">GK</button>
+  </div>
+
+  <!-- QUIZ -->
+  <div id="quizDiv" class="card" style="display:none;">
+    <div id="levelText"></div>
+    <div id="countText"></div>
+    <div id="timerText"></div>
+    <h3 id="questionText"></h3>
+    <div class="options">
+      <button id="a" onclick="answer('a')">A</button>
+      <button id="b" onclick="answer('b')">B</button>
+      <button id="c" onclick="answer('c')">C</button>
+      <button id="d" onclick="answer('d')">D</button>
+    </div>
+    <p id="feedback"></p>
+    <div class="progress">
+      <div id="progressBar"></div>
+    </div>
+  </div>
+
+  <!-- RESULT -->
+  <div id="resultDiv" class="card" style="display:none;">
+    <h2>Result</h2>
+    <p id="resultEmoji"></p>
+    <p id="scoreText"></p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
