@@ -62,6 +62,12 @@ git clone https://github.com/Monika-prog45/STUDY_BUDDY
 
 ---
 
+## 🎨 UI/UX Design (Figma)
+
+View the complete UI/UX design here:  
+🔗 https://www.figma.com/make/U8xAYp42WP5DvQ51wZ1IAF/AI-Assisted-Learning-App-Design?node-id=0-1&t=KS6f3yCSqjxqySQF-1
+
+
 ## 📊 Results & Impact
 - Improved learner engagement
 - Reduced anxiety for slow learners
