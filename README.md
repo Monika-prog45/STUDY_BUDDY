@@ -67,6 +67,13 @@ git clone https://github.com/Monika-prog45/STUDY_BUDDY
 View the complete UI/UX design here:  
 🔗 https://www.figma.com/make/U8xAYp42WP5DvQ51wZ1IAF/AI-Assisted-Learning-App-Design?node-id=0-1&t=KS6f3yCSqjxqySQF-1
 
+---
+
+## 🎨 Design Preview
+![Home](assets/figma/first.png)
+![Quiz](assets/figma/second_interface.png)
+
+---
 
 ## 📊 Results & Impact
 - Improved learner engagement
